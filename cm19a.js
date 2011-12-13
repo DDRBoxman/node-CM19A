@@ -1,7 +1,7 @@
 //Bus 004 Device 002: ID 0bc7:0002 X10 Wireless Technology, Inc. Firecracker Interface (ACPI-compliant)
 
 
-var usb_driver = require("../../node-usb/usb.js"),
+var usb_driver = require("node-usb"),
 	assert = require('assert'),
 	http = require('http'),
 	qs = require('querystring');
